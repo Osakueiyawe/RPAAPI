@@ -1,0 +1,12 @@
+2022-06-14 13:37:41.098 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-14 13:37:41.177 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:16521/swagger/index.html - -
+2022-06-14 13:37:41.199 +01:00 [INF] Hosting environment: Development
+2022-06-14 13:37:41.202 +01:00 [INF] Content root path: C:\Users\osakue.iyawe.GTBANK\Desktop\RPAAPI\RPA_API
+2022-06-14 13:37:41.516 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:16521/swagger/index.html - - - 200 - text/html;charset=utf-8 343.7285ms
+2022-06-14 13:37:42.377 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:16521/swagger/v1/swagger.json - -
+2022-06-14 13:37:42.734 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:16521/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 356.7632ms
+2022-06-14 13:37:56.290 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:16521/api/Outlook/GetEmailDetails application/json 41
+2022-06-14 13:37:56.398 +01:00 [INF] Executing endpoint 'RPA_API.Controllers.OutlookController.GetEmailDetails (RPA_API)'
+2022-06-14 13:37:56.479 +01:00 [INF] Route matched with {action = "GetEmailDetails", controller = "Outlook"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmailDetails(RPA_API.Models.OutlookRequest) on controller RPA_API.Controllers.OutlookController (RPA_API).
+2022-06-14 13:38:02.840 +01:00 [INF] About to work
+2022-06-14 13:38:03.881 +01:00 [ERR] error message
